@@ -1,0 +1,7 @@
+C:\Users\öznur\Desktop\Yeni klasör (2)\ClassYapisi\ClassYapisi\bin\Debug\ClassYapisi.exe.config
+C:\Users\öznur\Desktop\Yeni klasör (2)\ClassYapisi\ClassYapisi\bin\Debug\ClassYapisi.exe
+C:\Users\öznur\Desktop\Yeni klasör (2)\ClassYapisi\ClassYapisi\bin\Debug\ClassYapisi.pdb
+C:\Users\öznur\Desktop\Yeni klasör (2)\ClassYapisi\ClassYapisi\obj\Debug\ClassYapisi.csprojResolveAssemblyReference.cache
+C:\Users\öznur\Desktop\Yeni klasör (2)\ClassYapisi\ClassYapisi\obj\Debug\ClassYapisi.csproj.CoreCompileInputs.cache
+C:\Users\öznur\Desktop\Yeni klasör (2)\ClassYapisi\ClassYapisi\obj\Debug\ClassYapisi.exe
+C:\Users\öznur\Desktop\Yeni klasör (2)\ClassYapisi\ClassYapisi\obj\Debug\ClassYapisi.pdb
