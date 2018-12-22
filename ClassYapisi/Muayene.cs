@@ -8,8 +8,12 @@ namespace ClassYapisi
 {
    public class Muayene
     {
-        public DateTime tarih;
-        public string teshis;
-      
+        public DateTime tarih { get; set; }
+
+        public string tani { get; set; }
+
+        public Doktor doktor { get; set; }
+
+        public Hasta hasta { get; set; }    
     }
 }

@@ -6,13 +6,52 @@ using System.Threading.Tasks;
 
 namespace ClassYapisi
 {
-   public class Hasta
+    public abstract class Insan   //abstract Insan tipinden nesne oluşmasını önler 
     {
-        public string ad;
-        public string soyad;
+        public string ad { get; set; }
+        public string soyad { get; set; }
+        public string TCNO { get; set; }
+
+    }  
+
+    public abstract class Personel : Insan   // Inheritance Insandan kalıtıyor
+    {
+        public string Maas { get; set; }
+    }
+
+    public class Hasta : Insan
+    {
+        #region
+        /*
+        //constructor
+        public Hasta(string _ad, string _soyad, string _tcNo)
+        {
+            ad = _ad;
+            soyad = _soyad;
+            TCNO = _tcNo;
+        }
+
+        //overloading
+        public Hasta()
+        {
+            
+        }
+
+        //.NET 3.5
+        public string ad { private get; set; }  //dışarıdan setlenmeyi engellemek için private ekle
+        public string soyad { get; set; } //dışarıdan get engellemek için private ekle
+
+        public string adSoyad {
+            get
+            {
+                return ad + " " + soyad;
+            }
+        }
+
         private string _TCNO;
         public Muayene[] muayene;
 
+        //.NET 2.0
         //Encapsulation işlemi = dışarıdan erişimi yönetebilmektir
         public string TCNO
         {
@@ -32,5 +71,35 @@ namespace ClassYapisi
 
             }
         }
+        */
+       #endregion
+
+        public Muayene[] Muayeneler { get; set; }
+
+
     }
+
+    public class Doktor : Personel
+
+    {
+      
+    }
+
+    public class Memur : Personel
+
+    {
+       
+    }
+
+    public sealed class Sekreter : Personel  //sealed > sekreterin kalıtım yapılması önler
+
+    {
+         
+    }
+
+    public class Sozlesmeli : Personel
+    {
+        public byte SozlesmeSuresi { get; set; }
+    }
+
 }
