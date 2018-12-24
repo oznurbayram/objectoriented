@@ -91,7 +91,7 @@ namespace ClassYapisi
        
     }
 
-    public sealed class Sekreter : Personel  //sealed > sekreterin kalıtım yapılması önler
+    public sealed class Sekreter : Personel  //sealed > sekreterden kalıtım yapılması önler
 
     {
          
